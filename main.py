@@ -387,7 +387,7 @@ async def run_web_server():
 async def MaiiiinE():
     print("STARTING BOT FOR INDIA (IND) REGION")
     
-    Uid , Pw = '4283486964','09D00AF89A701FBF6F46EBE0022D24A596C7C4B9C3BC4CACEE3BC12EF69F0C35'
+    Uid , Pw = '4288852624','8E279BFEA325C44863298C50DD2E9A26F4F891A8A10565C1B15868437C2D4DAC'
     
     print("\n[STEP 1/4] Generating access token...")
     open_id , access_token = await GeNeRaTeAccEss(Uid , Pw)
@@ -482,4 +482,5 @@ if __name__ == '__main__':
     try:
         asyncio.run(StarTinG())
     except KeyboardInterrupt:
+
         print("\nBot shutting down.")
